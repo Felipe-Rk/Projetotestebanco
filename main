@@ -1,0 +1,17 @@
+class main:
+    pass
+
+from cliente import cliente
+
+from conta import conta
+
+c1=cliente("joão","413265-4587")
+conta=conta(c1.get_nome(),1222, 0)
+
+conta.deposita(100)
+conta.saque(50)
+conta.extrato
+
+#print(c1)
+#print(c1.nome, "e", c1.telefone)
+print(conta.titular, "Conta numero: ", conta.numero, "Seu saldo: ", conta.saldo)
